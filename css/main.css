@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One');
+
+body {
+    margin: 0 auto;
+    background: tomato;
+    font-family: 'Pathway Gothic One', Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+table {
+    border: 2px solid rgba(255, 250, 250, .3);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin: 80% 0 50% 0;
+    
+    
+}
+
+#screen {
+    font-family: 'Pathway Gothic One', Helvetica, sans-serif;
+    border: none;
+    background: rgba(255, 250, 250, .3);
+    color: white;
+    font-size: 40px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width: 249px;
+    height: 60px;
+    text-align: right;
+    padding-right: 0 5px;
+}
+
+#btn {
+    font-family: 'Pathway Gothic One', Helvetica, sans-serif;
+    border: none;
+    
+    border: 2px solid rgba(255, 250, 250, .3);
+    color: white;
+    background: rgba(255, 250, 250, .3) ;
+    font-size: 40px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width: 60px;
+    height: 60px;
+}
+
+#btn:hover {
+    background: rgba(255, 215, 0, 1);
+    color: tomato;
+}
+
+#color {
+    /*this will change the color every click on equal*/
+}
+
+#reset {
+    /*this will change the color every click on reset*/
+}
+
+#zero {
+    font-family: 'Pathway Gothic One', Helvetica, sans-serif;
+    border: none;
+    background: rgba(255, 250, 250, .8);
+    color: white;
+    font-size: 40px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width: 124px;
+    height: 60px;
+}
+
+#logo {
+    position: absolute;
+    height: 100%;
+    color: snow;
+    font-size: 40px;
+    z-index: -1;
+}
+
+#fullBox {
+    position: absolute;
+    /*z-index: -1;*/
+    /*height: 100%;*/
+    display: flex;
+    margin-top: -200px;
+    font-size: 30px;
+    color: rgba(255, 250, 250, .8)
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#box1 {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 250, 250, .2);
+    border: 1px solid rgba(255, 250, 250, .3);
+    flex: 1;
+    margin: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#box2  {
+    width: 60px;
+    height: 60px;
+    /*background: rgba(255, 250, 250, .2);*/
+    /*border: 1px solid snow;*/
+    flex: 1;
+    margin: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#box3 {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 250, 250, .2);
+    border: 1px solid rgba(255, 250, 250, .3);
+    flex: 1;
+    margin: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#box4 {
+    width: 60px;
+    height: 60px;
+    /*background: rgba(255, 250, 250, .2);*/
+    /*border: 1px solid snow;*/
+    flex: 1;
+    margin: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#answer {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 250, 250, .1);
+    border: 1px solid snow;
+    flex: 1;
+    margin: 5px;
+    color: snow;
+    font-size: 26px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit {
+    width: 100px;
+    height: 60px;
+    background: rgba(255, 250, 250, .6)
+    /*border: 1px solid snow;*/
+    flex: 1;
+    margin: 8px 0 0 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit:hover {
+    background: rgba(255, 215, 0, 1);
+    color: tomato;
+}
+
+.boxCenter {
+
+}

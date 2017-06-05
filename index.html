@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator.v2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+   <p id="logo">Let's Add Some Numbers</p>
+   
+   <section id="fullBox" class="boxCenter">
+       <div id="box1">0</div>
+       <div id="box2">+</div>
+       <div id="box3">0</div>
+       <div id="box4">=</div>   
+       <div id="box5"><input id="answer" type="text"></div>
+       <div id="submit">submit</div>  
+
+   </section>
+    <form name="calc">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" name="input" id="screen"></td>
+            </tr>
+
+				<tr>
+					<td id="reset"><input id="btn" type=button value="AC" OnClick="calc.input.value=''"></td>
+					<td><input id="btn" type=button value="AV" OnClick="myAvg();"></td>
+					<td><input id="btn" type=button value="" OnClick="calc.input.value+=''"></td>
+					<td><input id="btn" type=button value="/" OnClick="calc.input.value+='/'"></td>
+				</tr>
+
+            <tr>
+                <td><input id="btn" type=button value="7" OnClick="calc.input.value+='7'"></td>
+                <td><input id="btn" type=button value="8" OnClick="calc.input.value+='8'"></td>
+                <td><input id="btn" type=button value="9" OnClick="calc.input.value+='9'"></td>
+                <td><input id="btn" type=button value="x" OnClick="calc.input.value+='*'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type=button value="4" OnClick="calc.input.value+='4'"></td>
+                <td><input id="btn" type=button value="5" OnClick="calc.input.value+='5'"></td>
+                <td><input id="btn" type=button value="6" OnClick="calc.input.value+='6'"></td>
+                <td><input id="btn" type=button value="-" OnClick="calc.input.value+='-'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type=button value="1" OnClick="calc.input.value+='1'"></td>
+                <td><input id="btn" type=button value="2" OnClick="calc.input.value+='2'"></td>
+                <td><input id="btn" type=button value="3" OnClick="calc.input.value+='3'"></td>
+                <td><input id="btn" type=button value="+" OnClick="calc.input.value+='+'"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input id="zero" type=button value="0" OnClick="calc.input.value+='0'"></td>
+                <!--<td><input id="btn" type=button value="1" OnClick="calc.input.value+='1'"></td>-->
+                <td><input id="btn" type=button value="." OnClick="calc.input.value+='.'"></td>
+                <td id="color"><input id="btn" type=button value="=" OnClick="calc.input.value = eval(calc.input.value)"></td>
+            </tr>
+
+        </table>
+    </form>
+   </div>
+   <script src="script/calscript.js"></script>
+</body>
+</html>
